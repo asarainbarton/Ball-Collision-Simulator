@@ -37,7 +37,7 @@ brew install cmake sdl2 opencv
 
 Next, generate the build files for running CMake:
 
-cd build
+cd build 
 cmake ..
 
 ## Usage

@@ -1,8 +1,8 @@
 # My Project
 
-This program enables users to generate a simulation of balls interacting in a two dimensional space.
-Each ball is given x and y position, velocity, and acceleration components. As balls collide with walls
-or other balls, these components get updated accordingly. Before rendering, multiple settings can be 
+This program enables users to generate a simulation of particles (balls) interacting in a two dimensional
+space. Each ball is given x and y position, velocity, and acceleration components. As balls collide with
+walls or other balls, these components get updated accordingly. Before rendering, multiple settings can be 
 tweaked, including but not limited to # of balls, # of frames, frame rate, and ball elasticity (Net 
 energy loss component). 
 
@@ -28,7 +28,7 @@ https://en.wikipedia.org/wiki/Elastic_collision
 This project is currently made specifically for MacOS. To use this project on your local machine, 
 first clone this repository (containing submodules) using the following command:
 
-git clone --recurse-submodules https://github.com/asarainbarton/Ball-Collision-Simulator.git
+git clone --recurse-submodules https://github.com/asarainbarton/Particle-Collision-Simulator.git
 
 Next, make sure you have HomeBrew installed and then install any dependencies:
 

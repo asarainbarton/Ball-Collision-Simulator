@@ -1,0 +1,14 @@
+__pycache__/
+.mypy_cache/
+.vscode/
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+**/.mypy_cache/
+/build/.cmake/
+/build/CMakeFiles/
+/build/cmake_install.cmake
+/build/CMakeCache.txt
+/build/compile_commands.json
+/build/Makefile
+/build/simulation

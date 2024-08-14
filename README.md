@@ -8,7 +8,7 @@ energy loss component).
 
 ![Demo GIF](build/Media/DemoSimulation.gif)
 
-A higher-quality video of an example simulation can be viewed here: 
+A higher-quality video of an example simulation can be viewed here:   
 https://youtu.be/f1EE3UBr1vY?si=pSDD7Rd6NJf6If-Y
 
 **Collision Detection:**

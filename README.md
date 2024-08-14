@@ -6,6 +6,9 @@ or other balls, these components get updated accordingly. Before rendering, mult
 tweaked, including but not limited to # of balls, # of frames, frame rate, and ball elasticity (Net 
 energy loss component). 
 
+A video of an example simulation can be viewed here: 
+https://youtu.be/f1EE3UBr1vY?si=pSDD7Rd6NJf6If-Y
+
 **Collision Detection:**
 For each frame, the system must look for potential collisions. Otherwise, objects would pass right 
 though eachother or escape outside the screen. To maximize runtime efficiency, I implemented the 
@@ -23,13 +26,16 @@ https://en.wikipedia.org/wiki/Elastic_collision
 ## Installation
 
 This project is currently made specifically for MacOS. To use this project on your local machine, 
-first clone this repository. Next, make sure you have HomeBrew installed and then install any 
-dependencies using the following commands:
+first clone this repository (containing submodules) using the following command:
+
+git clone --recurse-submodules <repository-url>
+
+Next, make sure you have HomeBrew installed and then install any dependencies:
 
 brew update
 brew install cmake sdl2 opencv
 
-Next, generate the build files for running CMake using the following commands:
+Next, generate the build files for running CMake:
 
 cd build
 cmake ..

@@ -123,10 +123,10 @@ std::vector<Ball> get_random_balls(int num_balls, Config& config)
     std::vector<Ball> ball_list;
 
     // Define range of possible starting positions
-    int min_x_pos = 2 * config.max_radius;
-    int max_x_pos = config.window_width - 2 * config.max_radius;
-    int min_y_pos = 2 * config.max_radius;
-    int max_y_pos = config.window_height - 2 * config.max_radius;
+    int min_x_pos = config.max_radius;
+    int max_x_pos = config.window_width - config.max_radius;
+    int min_y_pos = config.max_radius;
+    int max_y_pos = config.window_height - config.max_radius;
 
     int x_pos, y_pos;
     int x_vel, y_vel;

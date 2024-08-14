@@ -1,16 +1,16 @@
 {
-    "WINDOW_WIDTH": 1535,
-    "WINDOW_HEIGHT": 959,
+    "WINDOW_WIDTH": 1164,
+    "WINDOW_HEIGHT": 490,
     "MIN_X_VEL": -7,
     "MAX_X_VEL": 7,
     "MIN_Y_VEL": -7,
     "MAX_Y_VEL": 7,
     "X_GRAVITY": 0,
     "Y_GRAVITY": 0,
-    "MIN_RADIUS": 30,
-    "MAX_RADIUS": 50,
-    "NUM_FRAMES": 100,
+    "MIN_RADIUS": 20,
+    "MAX_RADIUS": 40,
+    "NUM_FRAMES": 300,
     "FRAME_RATE": 60,
     "BALL_ELASTICITY": 1,
-    "NUM_BALLS": 30
+    "NUM_BALLS": 20
 }

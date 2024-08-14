@@ -6,7 +6,9 @@ walls or other balls, these components get updated accordingly. Before rendering
 tweaked, including but not limited to # of balls, # of frames, frame rate, and ball elasticity (Net 
 energy loss component). 
 
-A video of an example simulation can be viewed here: 
+![Demo GIF](build/Media/DemoSimulation.gif)
+
+A higher-quality video of an example simulation can be viewed here: 
 https://youtu.be/f1EE3UBr1vY?si=pSDD7Rd6NJf6If-Y
 
 **Collision Detection:**
@@ -20,7 +22,7 @@ for collisions between all possible pairs of balls.
 When it is detected that two balls have collided, a collision response mechanism is executed. Given the 
 radii and the initial x and y component positions and velocitities of both balls, we determine the final 
 (new) values of these components using the following formula:
-![Collision Response Formulas Image](build/Formulas.png)
+![Collision Response Formulas Image](build/Media/Formulas.png)
 https://en.wikipedia.org/wiki/Elastic_collision
 
 ## Installation

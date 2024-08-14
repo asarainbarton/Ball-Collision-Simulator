@@ -28,7 +28,7 @@ https://en.wikipedia.org/wiki/Elastic_collision
 This project is currently made specifically for MacOS. To use this project on your local machine, 
 first clone this repository (containing submodules) using the following command:
 
-git clone --recurse-submodules <repository-url>
+git clone --recurse-submodules https://github.com/asarainbarton/Ball-Collision-Simulator.git
 
 Next, make sure you have HomeBrew installed and then install any dependencies:
 

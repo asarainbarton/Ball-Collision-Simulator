@@ -32,13 +32,13 @@ git clone --recurse-submodules https://github.com/asarainbarton/Ball-Collision-S
 
 Next, make sure you have HomeBrew installed and then install any dependencies:
 
-brew update
-brew install cmake sdl2 opencv
+brew update  
+brew install cmake sdl2 opencv  
 
 Next, generate the build files for running CMake:
 
-cd build 
-cmake ..
+cd build  
+cmake ..  
 
 ## Usage
 
